@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="javascript.js"></script>
+    <title>desafio</title>
+</head>
+
+<body>
+
+    <form>
+        <label for="massa">Quilômetros percorridos:</label><br>
+        <input type="number" id="km" name="km" value="0"><br>
+
+        <label for="altura">Litros de combustível gastos:</label><br>
+        <input type="number" id="lt" name="lt" value="0"><br><br>
+
+        <label for="altura">Preço do litro do álcool:</label><br>
+        <input type="number" id="al" name="al" value="0"><br><br>
+        
+        <label for="altura">Preço do litro da gasolina:</label><br>
+        <input type="number" id="ga" name="ga" value="0"><br><br>
+    </form>
+
+    <button onclick="resulTotal()"> resultado </button>
+
+    <p id="resultado">Esperando resposta: </p>
+    <p id="comparaçao"></p>
+
+    <button onclick="resulCompa()"> comparaçao </button>
+    <p id="vantajoso "></p>
+
+</body>
+
+</html>
